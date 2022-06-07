@@ -1,6 +1,6 @@
 ---
 - name: Windows Server Hardening Scan
-  hosts: "{{ target_hosts }}"
+  hosts: "172.31.23.169"
   gather_facts: true
 
   roles:
